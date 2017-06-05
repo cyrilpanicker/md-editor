@@ -1,4 +1,4 @@
-exports.demoText = `# Header1
+module.exports.demoText = `# Header1
 ## Header2
 ###### Header6
 
