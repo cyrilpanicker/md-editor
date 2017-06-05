@@ -1,6 +1,6 @@
 import * as marked from 'marked';
 
-export const mdEditor = {
+export const editor = {
     props:['content'],
     data:function(){
         return {
@@ -18,9 +18,6 @@ export const mdEditor = {
         }
     },
     template:`
-        <textarea class="md-editor" cols="60"
-            v-model="value" @input="onInput"
-        >
-        </textarea>
+        <textarea class="editor" v-model="value" @input="onInput"></textarea>
     `
 };

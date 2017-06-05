@@ -1,27 +1,27 @@
 import Vue from 'vue';
 import {demoText} from './helpers';
-import {rtfEditor} from './components/rtf-editor';
-import {mdEditor} from './components/md-editor';
+import {viewer} from './components/viewer';
+import {editor} from './components/editor';
 
 var components = {};
-components['rtf-editor'] = rtfEditor;
-components['md-editor'] = mdEditor;
+components['viewer'] = viewer;
+components['editor'] = editor;
 
 var app = new Vue({
     components:components,
     data:{
-        mdText:demoText,
-        rtfHtml:''
+        editorInput:demoText,
+        editorOutput:''
     },
     methods:{
-        onMdInput:function(html){
-            this.rtfHtml = html;
+        onEditorInput:function(editorOutput){
+            this.editorOutput = editorOutput;
         }
     },
     template:`
         <div class="app">
-            <md-editor :content="mdText" @input="onMdInput"></md-editor>
-            <rtf-editor :content="rtfHtml"></rtf-editor>
+            <editor :content="editorInput" @input="onEditorInput"></editor>
+            <viewer :content="editorOutput"></viewer>
         </div>
     `
 });
