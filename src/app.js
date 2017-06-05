@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import {markdown} from 'markdown';
+import * as marked from 'marked';
 import {demoText} from './helpers';
 
 var components = {};
@@ -20,12 +20,12 @@ components['md-editor'] = {
     },
     methods:{
         onInput:function(){
-            this.$emit('input',markdown.toHTML(this.value));
+            this.$emit('input',marked(this.value));
         }
     },
     mounted:function(){
         if(this.value){
-            this.$emit('input',markdown.toHTML(this.value));
+            this.$emit('input',marked(this.value));
         }
     },
     template:`

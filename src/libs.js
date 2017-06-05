@@ -1,2 +1,2 @@
 import 'vue';
-import 'markdown';
+import 'marked';

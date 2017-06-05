@@ -8,6 +8,8 @@ exports.demoText = `# Header1
 
 **emphasis _nested emphasis_ emphasis**
 
+~~striked through text~~
+
 * list item1
 * list item2
 * list item3
@@ -20,7 +22,7 @@ paragraph content.
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image")
 
 \`\`\`
-    code
+code
 \`\`\`
 
 > quote
