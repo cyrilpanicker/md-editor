@@ -9,14 +9,23 @@
         html,body,.app,.md-editor,.rtf-editor{
             min-height: 100%;
         }
-        .editor{
-            width: 50%;
-            resize: none;
+        #editor { 
+            position: absolute;
+            height: 97%;
+            width: 49%;
+            border: 1px solid lightslategrey;
+        }
+        #editor>*{
+            left: 0px !important;
         }
         .viewer{
+            position: absolute;
+            height: 97%;
+            overflow-y: scroll;
+            right: 7px;
             background-color:lavenderblush;
             border: 1px solid rgb(169, 169, 169);
-            width:50%;
+            width:49%;
         }
         .app{
             display: flex;
