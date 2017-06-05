@@ -6,7 +6,7 @@
     "build": "webpack",
     "postinstall": "npm run build",
     "start:dev": "webpack-dev-server",
-    "start": "cd dist & static --host-address 0.0.0.0 --port 10000"
+    "start": "static dist --host-address 0.0.0.0 --port 10000"
   },
   "author": "",
   "license": "ISC",
