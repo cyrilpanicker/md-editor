@@ -1,0 +1,23 @@
+{
+  "name": "md-rtf-editor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "postinstall": "npm run build",
+    "start:dev":"webpack-dev-server",
+    "start": "cd dist & static"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "vue": "^2.3.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "node-static": "^0.7.9",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
