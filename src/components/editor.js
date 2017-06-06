@@ -22,7 +22,7 @@ export const editor = {
         self.editor.getSession().setWrapLimitRange(null,70);
         self.editor.setTheme('ace/theme/chrome');
         self.editor.renderer.setShowGutter(false);
-        self.editor.renderer.setShowInvisibles(true);
+        // self.editor.renderer.setShowInvisibles(true);
         self.editor.setFontSize(14);
         self.editor.setHighlightActiveLine(false);
         if(self.value){
