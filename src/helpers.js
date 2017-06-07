@@ -1,30 +1,22 @@
-module.exports.demoText = `# Header1
-## Header2
-###### Header6
+module.exports.demoText = `# Cras cursus ![](https://fimgs.net/images/sastojci/m.105.jpg)
 
-*emphasis*, _emphasis_
+## Duis placerat
+Lorem ipsum *dolor sit amet*, consectetur **adipiscing elit**.lvinar. ~~Duis placerat~~ sodales aliquam. Integer finibconsectetur, _quis aliquam dui_ sodales. Quisque ac commodo __sem, vitae mattis__ enim. inia, nec ultricies urna tempor. Pellentesque **dapibus, augue id _ullamcorper_ malesuada, mi** erat vestibulum.
 
-**strong emphasis**, __strong emphasis__
+* Cras pellentesque non arcu vel mattis. Integer lobortis, turpis gravida tincidunt lacinia, quam.
+* Nulla cursus, nisi eget euismod pharetra, lorem tellus finibus velit, et ullamcorper dui risus et justo. Sed eu magna sed diam rutrum.
+* Sodales, sollicitudin efficitur quam. Vivamus ac auctor leo. Nullam eu tristique massa, sit amet malesuada leo. Sed vitae sagittis nisi.
 
-**emphasis _nested emphasis_ emphasis**
+## Sed porttitor
+Vivamus lacus purus, venenatis in fermentum nec, placerat sed nisi. Ut lacinia ornare bibendum. Morbi quis dictum turpis, sed ornare erat. 
 
-~~striked through text~~
+1. Duis quis feugiat erat, vel commodo erat. Cras id mauris sed mauris fringilla blandit. 
+2. Tincidunt nisi ut augue sagittis, in lacinia sem interdum. Sed.
+3. Pellentesque sed volutpat erat. Praesent eu luctus dolor, at commodo ipsum.
 
-* list item1
-* list item2
-* list item3
+**************************************
 
+> _If at first the idea is not absurd, then there is no hope for it. ~ Albert Einstein_
 
-paragraph content.
-
-[link](https://www.google.com)
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image")
-
-\`\`\`
-code
-\`\`\`
-
-> quote
-
-***`;
+[Mastering Markdown - by Github](https://guides.github.com/features/mastering-markdown/)
+**************************************`;
