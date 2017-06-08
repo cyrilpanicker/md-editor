@@ -14,13 +14,13 @@ var app = new Vue({
         editorOutput:''
     },
     methods:{
-        onEditorInput:function(editorOutput){
+        onContentChange:function(editorOutput){
             this.editorOutput = editorOutput;
         }
     },
     template:`
         <div class="app">
-            <editor :content="editorInput" @input="onEditorInput"></editor>
+            <editor :content="editorInput" @change="onContentChange"></editor>
             <viewer :content="editorOutput"></viewer>
         </div>
     `
